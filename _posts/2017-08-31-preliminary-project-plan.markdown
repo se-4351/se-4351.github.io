@@ -1,6 +1,6 @@
-# BlindNav: A Navigation App for People with Impaired Vision
+# Preliminary Project Plan
 
-## Preliminary Project Plan
+## BlindNav: A Navigation App for People with Impaired Vision
 
 SE 4351.001
 
@@ -10,48 +10,50 @@ Phase 0
 
    1. Project overview
 
-      The project shall deliver a smartphone app to help blind people navigate indoors at the University of Texas at Dallas.
-      The app shall be able to receive command from the disabled person (through voice) then combine with the location data base to compute the direction from that person starting point till the destination.
-      The app shall also be able to guide the person using voice guidance and help them navigate through out the journey.
-
-      The project is to come up with the requirements, specifications and design for the app.
+      The project shall deliver documentation and prototypes for a smartphone app to help visually impaired people navigate inside buildings at the University of Texas at Dallas.
 
    1. Project deliverables
 
-      Date | Deliverable
-      ---- | ----------
-      2017-08-31 | Preliminary Project Plan
-      2017-09-28, 2017-10-03 | Interim Project 1
-      2017-10-10 | Final Project 1
-      2017-11-09 | Interim Project 2
-      2017-11-28, 2017-11-30 | Final Project 2 (demo and presentation)
+      The deliverable items to be produced shall be:
+
+      - Preliminary Project Plan (this document)
+      - Interim Project 1
+      - Final Project 1
+      - Interim Project 2
+      - Final Project 2
+        - Prototype demo
+        - Presentation of documentation process
 
    1. Evolution of this document
 
-      This document will be revised, modified and updated during the scope of the project.
+      This document shall be revised, modified and updated during the scope of the project.
 
    1. Definitions, acronyms and abbreviations
 
-      **Domain**: indoors environment;
-      This environment consists of multiple floors.
-      Each floor may have multiple classrooms, offices, labs, lounges, elevators, restrooms, etc.
+      **Domain**
 
-      **Stakeholder**
+      - Indoor environment
+      - The environment may span multiple floors
+      - Each floor may have multiple classrooms, offices, labs, lounges, elevators, restrooms, etc.
 
-      - persons with impaired vision
-      - assistive persons
-      - the people at the school (professors, students, faculties)
-      - the project's sponsors
+      **Stakeholders**
+
+      - Individuals with impaired vision
+      - Individuals responsible for the well-being of someone with impaired vision
+      - Individuals tasked with the creation and enforcement of the domain's safety guidelines
+      - Technical advisors to the project
 
 1. Project Organization
 
    1. Process model
 
-      The project would implement the Agile method through 2 main phases and apply incremental changes to the project on each phase.
+      The project shall be created using an incremental and iterative development process.
+      Within that iterative process there shall be two broad phases of development.
+      The first phase of development shall end on 2017-10-10 with the *Final Project 1* deliverable.
 
    1. Organizational structure
 
-      The individuals working on the project:
+      The individuals working on the project (team members):
 
       - Fazza, Matthews
       - Griffin, James
@@ -64,14 +66,15 @@ Phase 0
       - Rogers, Chris
       - Spiva, James
 
-      …would be the team leader for the first phase of the project.
+      James Griffin shall be the team leader for the first phase of the project.
 
-   1. Organizational boundaries and interfaces
+      Joseph LaFreniere shall be the team leader for the second phase of the project.
 
    1. Project responsibilities
 
-      The project would be divided into equal parts among the team members.
-      All the team members are expected to contribute quality work in a timely manner.
+      The work required for the project shall be divided among the team members.
+      The distribution of that work is to be decided.
+      All the team members are expected to submit their work to the current phase leader in a timely manner.
 
    1. Managerial Process
 
@@ -90,12 +93,26 @@ Phase 0
 
    1. Methods, tools, and techniques
 
+      Documentation and application development shall be centralized at [github.com/se-4351](https://github.com/se-4351).
+      Team members shall use [git](https://git-scm.com/) to collaborate on the documentation creation and software development.
+
+      The technologies used to perform any application development are *to be decided*.
+
    1. Software documentation
 
-   1. Project support functions
+      Documentation shall be available on the project's website [se-4351.github.io](https://se-4351.github.io).
+      Updates to documentation artifacts over the course of the project shall replace the original artifacts online.
+      Live records of changes (changelogs) to documentation shall be available online in the form of git commit logs.
+      Documentation changelogs shall be submitted with later artifacts.
 
-1. Work Elements, Schedule, and Budget
+1. Schedule
 
-   The project is decided to be working on an Android mobile environment.
+   The project deliverables outlined in section 1.2 shall be submitted on the following dates:
 
-   The project is to be revised and updated throughout the scope of development.
+   Date | Deliverable
+   ---- | ----------
+   2017-08-31 | Preliminary Project Plan
+   2017-09-28, 2017-10-03 | Interim Project 1
+   2017-10-10 | Final Project 1
+   2017-11-09 | Interim Project 2
+   2017-11-28, 2017-11-30 | Final Project 2 (demo and presentation)
